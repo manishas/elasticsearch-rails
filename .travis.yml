@@ -32,4 +32,4 @@ script:
   - SERVER=launch TEST_CLUSTER_COMMAND=/usr/share/elasticsearch/bin/elasticsearch TEST_BUNDLE_GEMFILE=$TEST_BUNDLE_GEMFILE bundle exec rake test:all
 
 notifications:
-  disable: true
+  email: manisha@shippable.com
